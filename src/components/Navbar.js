@@ -6,9 +6,10 @@ import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
-   const refreshPage = () => {
+  const refreshPage = () => {
     window.location.reload();
   };
+
   return (
     <div className='navbar'>
         <Link to="/"> 

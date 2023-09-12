@@ -3,12 +3,31 @@
     max-width: 800px;
     width: 70%;
     padding: 5%;
-    border-radius: 50px;
+    border-radius: 20px;
     margin-bottom: 5%;
+    overflow: auto;
+    max-height: 300px; 
+    position: relative;
 }
 
+.content::-webkit-scrollbar {
+    width: 0px;
+}
 
-.defintions {
+.content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50%; /* Make the thumb circular */
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.definition {
     display: flex;
     flex-direction: column;
     gap: 10px;
