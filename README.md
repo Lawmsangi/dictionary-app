@@ -1,3 +1,6 @@
+# Description
+Hello, since I have a week-long break from my studies, I built a dictionary app where you can search for different words. It gives synonyms, antonyms, definitions, and audio of that word.  I also fetched random quotes from an API. The UI may not look great, will work later on.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
