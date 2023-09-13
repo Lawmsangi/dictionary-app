@@ -35,8 +35,8 @@ const Home = () => {
             onChange={handleInputChange}
             value={search}
             />    
-            <button onClick={handleSearch} >
-              <AiOutlineSearch className="search-icon" />
+            <button onClick={handleSearch} className="search-icon" >
+              <AiOutlineSearch />
             </button>
         </div>
         {!showWordDefinition && <Quotes />}

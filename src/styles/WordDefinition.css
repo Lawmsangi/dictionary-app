@@ -20,7 +20,7 @@
 
 .content::-webkit-scrollbar-thumb {
     background: #888;
-    border-radius: 50%; /* Make the thumb circular */
+    border-radius: 50%;
 }
 
 .content::-webkit-scrollbar-thumb:hover {

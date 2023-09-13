@@ -10,6 +10,7 @@ const Quotes = () => {
     useEffect(() => {
       dispatch(fetchQuotes());
     }, [dispatch]);
+    
   return (
     <div className="quotes">
           <h2>Quote of the Day</h2>
